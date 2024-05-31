@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"aed30b927fa74105","x":180,"y":-440,"width":620,"height":190,"color":"2","type":"group","label":"Untitled group"},
+		{"id":"74ef0fc957c947a6","type":"text","text":"Reverse Engineering","x":-180,"y":-230,"width":201,"height":50},
+		{"id":"b9793878796c0607","type":"text","text":"Custom allocators","x":400,"y":-370,"width":185,"height":50},
+		{"id":"ad6baffb21b014df","type":"text","text":"Pools","x":687,"y":-420,"width":93,"height":50},
+		{"id":"368e116b0909dd05","type":"text","text":"Slabs","x":687,"y":-320,"width":93,"height":50},
+		{"id":"010f76bf55ecff18","type":"text","text":"Memory","x":200,"y":-370,"width":120,"height":50},
+		{"id":"725a19c17cf1f102","x":-142,"y":-80,"width":126,"height":60,"type":"text","text":"Assembly"}
+	],
+	"edges":[
+		{"id":"9666f36c002b7c2a","fromNode":"74ef0fc957c947a6","fromSide":"right","toNode":"010f76bf55ecff18","toSide":"left"},
+		{"id":"00ad5579458e8058","fromNode":"010f76bf55ecff18","fromSide":"right","toNode":"b9793878796c0607","toSide":"left"},
+		{"id":"ca1dcaae526e730c","fromNode":"b9793878796c0607","fromSide":"right","toNode":"ad6baffb21b014df","toSide":"left"},
+		{"id":"489afb83d2c4edcf","fromNode":"b9793878796c0607","fromSide":"right","toNode":"368e116b0909dd05","toSide":"left"},
+		{"id":"a285b96df2e679bf","fromNode":"74ef0fc957c947a6","fromSide":"bottom","toNode":"725a19c17cf1f102","toSide":"top"}
+	]
+}
